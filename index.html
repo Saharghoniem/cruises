@@ -1,0 +1,85 @@
+<!DOCTYPE >
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Manipulating the DOM</title>
+  <!-- Load Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans:900|Merriweather&display=swap" rel="stylesheet">  <!-- Load Styles -->
+  <link href="css/styles.css" rel="stylesheet">
+</head>
+   <body>
+  <!-- HTML Follows BEM naming conventions 
+  IDs are only used for sections to connect menu achors to sections -->
+    <header class="page__header">
+    <nav class="navbar__menu">
+      <!-- Navigation starts as empty UL that will be populated with JS -->
+      <ul id="navbar__list"></ul>
+    </nav>
+   </header>
+   <main>
+    <header class="main__hero">
+      <h1>Hassan Youssry</h1>
+      <img src="/33.jpg"/>
+
+    </header>
+    <section  id="main" data-nav="الرئيسية"your-active-class">
+      <div class="landing__container">
+
+        <h2>الرئيسية</h2>
+        <img src="/tra2.jpg"/>
+        <p>نقدم لكم المزيد من الخدمات ونسعى لرضائكم والوصول بكم لاقصى درجات السعاده والرفاهيه</p>
+      </div>
+    </section>
+    <section id="about us" data-nav="خدماتنا">
+      <div class="landing__container">
+        <h2>خدماتنا</h2>
+        <img src="/trav1.jpg"/>
+        <p>نمتلك خبرة طويلة في مجالنا، ولذلك نستطيع تقديم خدمات متميّزة لك.
+
+        </p>
+      </div>
+    </section>
+    <section id="services" data-nav="عنا">
+      <div class="landing__container">
+        <h2>عنا</h2>
+        <h1>Travel around the world cruises
+
+        </h1>
+        </div>
+    </section>
+    <section id="contact us" data-nav=" تواصل معنا">
+      <div class="landing__container">
+        <h2>تواصل معنا</h2>
+        <h5>   نحن هنا لللإجابة عن استفساراتك و تعليقاتك
+          </h5>
+          <p>
+          العنوان
+          ٤٦ شارع الشيخ زايد، دبي، الامارات العربية المتحدة
+        </p>
+        <p>  الهاتف
+        :  01030220937</p>
+          
+          </h5>
+          <img src="/call.jpg" />
+      </div>
+    </section>
+    
+
+    <span class="up" >up
+    
+    </span>
+  </main>
+  
+  <footer class="page__footer">
+    <p>https://hassanyoussry.com/ </p>
+  </footer>
+  
+<script src="js/app.js"></script>
+</body>
+</html>
+
+
+
+
